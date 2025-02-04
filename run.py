@@ -24,7 +24,7 @@ def setup_venv():
 def main():
     python_path = setup_venv()
     print("Starting application...")
-    subprocess.run([python_path, "scene_editor.py"])
+    subprocess.run([python_path, "app.py"])
 
 if __name__ == "__main__":
     main() 

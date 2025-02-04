@@ -1,3 +1,4 @@
-pygame
-pygame_gui
-pathlib
+gradio
+openai
+pyttsx3
+# renpy-sdk

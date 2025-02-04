@@ -1,10 +1,25 @@
 # TTPV
 文本生成像素视频 Text To Pixel Videos
 
-- TTS：ChatTTS
-- 场景构建： pygame
-- 视频生成： MoviePy
-- 资源生成：pixel style empty scene
+- 控制面板： Gradio
+- 核心实现： RenPy
+- 文本转语音：ChatTTS
+
+## 流程
+启动gradio界面
+
+用户输入提示词
+↓
+LLM 生成对话文稿
+↓
+解析角色并配置形象/声音
+↓
+ChatTTS 生成语音
+↓
+RenPy 调试
+↓
+生成视频
+
 
 ## 功能需求
 
@@ -47,3 +62,8 @@
    - 支持从资源目录加载背景和头像
    - 资源选择时显示预览图
    - 支持滚动浏览多个资源
+
+
+# 鸣谢
+- 头像资源：https://kenney.itch.io/avatar-mixer
+- 背景资源：https://labs.google/fx/zh/tools/image-fx

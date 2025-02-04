@@ -1,25 +1,9 @@
-# TTPV
-文本生成像素视频 Text To Pixel Videos
+# TTSV
+文本生成场景视频 Text To Scene Video
 
 - 控制面板： Gradio
-- 核心实现： RenPy
+- 核心实现： 
 - 文本转语音：ChatTTS
-
-## 流程
-启动gradio界面
-
-用户输入提示词
-↓
-LLM 生成对话文稿
-↓
-解析角色并配置形象/声音
-↓
-ChatTTS 生成语音
-↓
-RenPy 调试
-↓
-生成视频
-
 
 ## 功能需求
 

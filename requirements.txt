@@ -1,4 +1,9 @@
 gradio
 openai
 pyttsx3
-# renpy-sdk
+pyautogui 
+opencv-python 
+numpy
+pywin32
+opencv-python 
+pillow

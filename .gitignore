@@ -1,4 +1,4 @@
-assets/
 venv/
 .history/
 src/__pycache__/
+movies/
